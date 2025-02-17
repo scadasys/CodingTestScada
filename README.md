@@ -33,7 +33,8 @@ Terminálban használt parancsok:
 - *dotnet build* - A program fordítása a Debug/Release mappába
 - *dotnet test* - Fordítás után a tesztek futtatása
 - *dotnet run* - A fordított program inditása
+- *dotnet clean* - Törli a fordított állományokat.
 
 ## Elkészített feladat
-Ha elkészült a feladat megvalósításával, kérem küldje el a projektkönyvtárat bezippelve vagy bárhogy becsomagolva a kurinczky@scadasys.hu email címre a nevével együtt.
+Ha elkészült a feladat megvalósításával, kérem futtassa le a *dotnet clean* parancsot és küldje el a projektkönyvtárat bezippelve vagy bárhogy becsomagolva a kurinczky@scadasys.hu email címre a nevével együtt.
 
