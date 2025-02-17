@@ -10,18 +10,31 @@ Ebben a szakmai feladatban egy program frissítő alkalmazást kell befejeznie. 
 
 ### A program felépítése
 📂 CodingTestScada/
+
 │── 📂 ProgramVersions/   # Itt található az összes elérhető verzió
+
 │   │── program_v1.0.exe
+
 │   │── program_v1.1.exe
+
 │   │── program_v1.2.exe
+
 │
+
 │── 📂 Main/              # Az éppen futó verzió
+
 │   │── program.exe
+
 │
+
 │── Program.cs # A kiegészitendő programkód
+
 │── UnitTest.cs # A teszteket tartalmazó programkód
+
 │
+
 │── 📂 bin/Debug(/Release)/net/ # A fordított program helye
+
 
 ## Telepítés, fejlesztés és tesztelés
 A .NET SDK szükséges a fejlesztéshez, ennek telepítése operációs rendszerekre bontva:
