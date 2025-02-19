@@ -14,7 +14,7 @@ namespace CodingTestScada
         public void GetExeVersion_Returns_Correct_Version()
         {
             string expectedVersion = "1.0.0.0";
-            string actualVersion = Updater.GetExeVersion("Versions/program_1.0.0.0.exe");
+            string actualVersion = Updater.GetExeVersion("ProgramVersions/program_1.0.0.0.exe");
 
             Assert.That(actualVersion, Is.EqualTo(expectedVersion));
         }
@@ -22,7 +22,7 @@ namespace CodingTestScada
         public void GetExeVersion_Returns_Correct_Version_Unknown()
         {
             string expectedVersion = "0.9.0.0";
-            string actualVersion = Updater.GetExeVersion("Versions/program_unknown.exe");
+            string actualVersion = Updater.GetExeVersion("ProgramVersions/program_unknown.exe");
 
             Assert.That(actualVersion, Is.EqualTo(expectedVersion));
         }
@@ -38,7 +38,7 @@ namespace CodingTestScada
         public void GetLatestVersionPath_Returns_The_Correct_Newest_Path()
         {
             string result = Updater.GetLatestVersionPath();
-            Assert.That(result, Is.EqualTo("Versions/program_1.1.0.0.exe"));
+            Assert.That(result, Is.EqualTo("ProgramVersions/program_1.1.0.0.exe"));
         }
 
         [Test]
